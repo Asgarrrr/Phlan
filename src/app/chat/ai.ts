@@ -1,5 +1,5 @@
 import { createAI } from "ai/rsc";
-import { ClientMessage, ServerMessage, submitUserMessage } from "./actions";
+import { ClientMessage, ServerMessage, submitUserMessage } from "./ia-actions";
 
 export type AIState = ServerMessage[];
 export type UIState = ClientMessage[];
